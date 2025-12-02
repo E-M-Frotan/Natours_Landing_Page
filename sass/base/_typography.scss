@@ -1,0 +1,35 @@
+body {
+    box-sizing: border-box;
+    font-family: "Lato", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-size: 1.6rem;
+    line-height: 1.6;
+    color: $color-grey-dark;
+    padding: 20px;
+}
+
+
+.heading-primary {
+    color: #fff;
+    text-transform: uppercase;
+    text-align: center;
+    backface-visibility: hidden;
+    margin-bottom: 6rem;
+
+    &--main {
+        display: block;
+        font-size: 6rem;
+        font-weight: 400;
+        letter-spacing: 3.5rem;
+        animation: move-in-left 0.7s ease-in-out;
+    }
+
+    &--sub {
+        display: block;
+        font-size: 2rem;
+        font-weight: 700;
+        letter-spacing: 1.7rem;
+        animation: move-in-right 0.7s ease-in-out;
+    }
+}
