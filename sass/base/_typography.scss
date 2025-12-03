@@ -33,3 +33,35 @@ body {
         animation: move-in-right 0.7s ease-in-out;
     }
 }
+
+.heading-secondary {
+    font-size: 3.5rem;
+    text-transform: uppercase;
+    font-weight: 700;
+    background: linear-gradient(to left, $color-primary-dark, $color-primary-light);
+    display: inline-block;
+    color: transparent;
+    background-clip: text;
+    -webkit-background-clip: text;
+    transition: transform .3s;
+    letter-spacing: 2px;
+
+    &:hover {
+        transform: skewY(5deg) skewX(10deg);
+        text-shadow: .5rem 1rem 2rem rgba($color-black, 0.2);
+    }
+}
+
+.heading-tertiary {
+    font-size: $default-font-size;
+    font-weight: 700;
+    text-transform: uppercase;
+}
+
+.paragraph {
+    font-size: $default-font-size;
+
+    &:not(:last-child) {
+        margin-bottom: 3rem;
+    }
+}
