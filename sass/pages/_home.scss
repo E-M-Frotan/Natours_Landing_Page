@@ -21,3 +21,13 @@
     padding: 25rem 0 15rem 0;
     margin-top: -23.5vh;
 }
+
+.section-stories {
+    padding:  30rem 0;
+    position: relative;
+
+    & .row {
+        z-index: 33;
+        margin-right: 8rem;
+    }
+}
