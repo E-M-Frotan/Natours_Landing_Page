@@ -13,3 +13,8 @@ html {
 body {
     box-sizing: border-box;
 }
+
+body.has-popup {
+    padding: 0;
+    overflow: hidden;
+}
